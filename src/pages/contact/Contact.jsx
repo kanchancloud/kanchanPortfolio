@@ -11,17 +11,20 @@ function Contact(props) {
                 <h1>CONTACT</h1>
                 <div className="contactItem">
                     <div className="ContactImg">
+                        <a href="mailto:kanchansharma@gmail.com" target="_blank"><span className="emailSpan">
                         <AiOutlineMail style={{height: "80px", width: "60%",}} className="icons1"/>
                         <br/>
-                        <a href="mailto:kanchansharma@gmail.com" target="_blank"><span className="emailSpan">email</span></a><br/>
+                        email</span></a><br/>
                     </div>
                     <div className="ContactImg">
+                        <a href="https://github.com/kanchansharma " target="_blank"><span className="emailSpan">
                         <AiFillGithub style={{height: "80px", width: "60%",}} className="icons2"/><br/>
-                        <a href="https://github.com/kanchansharma " target="_blank"><span className="emailSpan">Github</span></a><br/>
+                        Github</span></a><br/>
                     </div>
                     <div className="ContactImg">
+                        <a href="https://api.whatsapp.com/send?phone=917065121915" target="_blank"><span className="emailSpan">
                         <AiOutlineWhatsApp style={{height: "80px", width: "60%",}} className="icons3 "/><br/>
-                        <a href="https://api.whatsapp.com/send?phone=917065121915" target="_blank"><span className="emailSpan">whatsapp</span></a><br/>
+                        whatsapp</span></a><br/>
                     </div>
                 </div>
             </div>
