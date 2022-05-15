@@ -1,0 +1,224 @@
+* {
+    font-Family: 'Red Hat Display';
+}
+
+.portImage {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px -7px;
+    transition: all 1s ease-in-out 0s;
+    position: relative;
+
+}
+
+.portFolio {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.Title {
+    text-align: center;
+    font-family: Poppins, serif;
+    font-weight: 500;
+    color: yellow;
+    transition: all 1s ease-in-out 0s;
+    position: relative;
+    -webkit-box-align: center;
+    font-size: 3.5rem;
+
+}
+
+.img {
+    height: auto;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 3px;
+    background-position: left center;
+}
+
+.MovieAbout {
+    padding-top: 0;
+
+}
+
+.MovieAbout {
+    width: 284px;
+    border: 1px solid green;
+    margin: 36px 8% 36px 10%;
+}
+
+.aboutTitle {
+    color: rgb(168, 178, 187);
+    text-align: center;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.paraI {
+    font-size: 15px;
+    text-align: center;
+    padding-left: 10px;
+    color: rgb(168, 178, 187);
+}
+
+.aboutTech {
+    color: rgb(168, 178, 187);
+    text-align: center;
+    font-size: 15px;
+
+
+}
+
+
+.imgDiv .btn {
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    top: 50%;
+
+    transform: translate(65%, -50%);
+
+}
+
+
+.imgDiv {
+    width: 45%;
+    position: relative;
+    left: 19%;
+
+}
+
+.imgDiv a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #121444;
+    color: green;
+    border: 2px solid green;
+
+}
+
+
+.LinkButton {
+    text-decoration: none;
+    border: 1px solid green;
+    color: transparent;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    /*letter-spacing: 0px;*/
+    transition: all 0.5s;
+    position: relative;
+    text-align: center;
+    margin-left: 35%;
+    background-color: black;
+}
+
+.LinkButton:before {
+    content: "watch";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #4648c9;
+    font-size: 20px;
+    top: 0;
+    left: 100%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(1) rotatey(0);
+    opacity: 0;
+}
+
+.LinkButton:hover:before {
+    transform: scale(1) rotatey(10deg);
+    left: 0;
+    opacity: 1;
+}
+
+.LinkButton:after {
+    content: "watch";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    background: rgb(34, 34, 34);
+    font-size: 15px;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(1) rotatey(0);
+    opacity: 1;
+}
+
+.LinkButton:hover:after {
+    transform: scale(0) rotatey(360deg);
+    left: 100%;
+    opacity: 0;
+}
+
+@media screen and (min-width: 400px) {
+    .Title {
+        margin-top: 20%;
+
+    }
+
+    .img {
+        width: 70%;
+    }
+
+    .imgDiv .btn {
+        transform: translate(-323%, -50%);
+    }
+
+    .imgDiv {
+        left: 10%;
+    }
+
+    .MovieAbout {
+        width: 429px;
+    }
+
+    .aboutTitle {
+        font-size: 35px;
+
+    }
+
+    .paraI {
+        font-size: 20px;
+    }
+
+    .aboutTech {
+        font-size: 15px;
+    }
+
+    .LinkButton {
+        margin-left: 39%;
+    }
+}

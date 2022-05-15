@@ -1,0 +1,48 @@
+
+.About {
+    color: white;
+    text-align: center;
+    width: 95%;
+}
+
+.aboutMe {
+    font-size: 40px;
+    color: yellow;
+}
+
+
+.introWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    font-size: 18px;
+
+}
+
+.techImg {
+    height: 50px;
+    width: 50px;
+}
+
+.footerIconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    font-size: 25px;
+    flex-flow: row wrap;
+}
+
+@media screen and (min-width: 400px) {
+    .About {
+        width: 100%;
+    }
+
+    .footerIconContainer {
+        display: flex;
+        justify-content: center;
+    }
+}

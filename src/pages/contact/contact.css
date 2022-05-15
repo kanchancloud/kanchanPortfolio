@@ -1,0 +1,30 @@
+.ContactWrap h1 {
+    text-align: center;
+    color: yellow;
+}
+.contactItem{
+    bottom: 10%;
+}
+
+.contactItem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    gap: 4%;
+}
+.contactItem a{
+    color: white;
+    text-decoration: none;
+}
+
+.contactItem :hover{
+    color: #4648c9;
+}
+@media screen and (min-width: 400px) {
+    .contactItem{
+        gap: 8%;
+
+    }
+}

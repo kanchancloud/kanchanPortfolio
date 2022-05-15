@@ -1,0 +1,58 @@
+.nav {
+    display:block;
+    list-style: none;
+    justify-content: center;
+    gap: 10%;
+    height: 70px;
+    padding-top: 2%;
+    /*margin-left: 2%;*/
+    font-size: 13px;
+
+
+
+}
+
+.nav a {
+    display: block;
+}
+
+
+.navLi a {
+    text-decoration: none;
+    color: white;
+}
+
+.navLi a:hover {
+    border-bottom: 2px solid #2c2cb2;
+}
+
+.navLi a:active {
+    border-bottom: 2px solid red;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #000;
+    z-index: 1;
+}
+
+@media screen and (min-width: 400px) {
+    .nav {
+        display: flex;
+        padding-top: 3%;
+        /*margin-left: 2%;*/
+        font-size: 20px;
+        position: fixed;
+        top: 0;
+        left:2%;
+        width: 100%;
+        background-color: black;
+        /*flex-flow: column nowrap;*/
+
+    }
+
+    .navLi {
+        position: sticky;
+    }
+
+}
