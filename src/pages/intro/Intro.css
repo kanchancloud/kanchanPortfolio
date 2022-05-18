@@ -2,71 +2,109 @@
     font-family: Red Hat Display;
     color: white;
     font-weight: 200;
-    font-size: 50px;
+    font-size: 20px;
     text-align: left;
-    width: 90px;
     position: relative;
-    margin-top: 15%;
+    width: 90%;
+    box-sizing: border-box;
+    padding-left: 8rem;
+    padding-top: 15%;
 }
 
+.para2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 .gUqzkk {
     transform: rotate(90deg);
     color: rgb(168, 178, 187);
-    font-size: 15px;
-    left: 225px;
-    top: 10%;
+    font-size: 25px;
     opacity: 0.6;
     position: absolute;
+    box-sizing: border-box;
+    right: 0;
+    bottom: 0;
+    left: 95%;
+    top: 100px;
 }
 
 .name {
     font-size: 30px;
-    margin-top: -14px;
     color: white;
-    margin-left: 25%;
     width: 70%;
-
 }
 
-@media screen and (min-width: 400px) {
+.para2 .react-typewriter-text-wrap .react-typewriter-text {
+    font-family: 'Red Hat Display';
+    color: white;
+    font-weight: 200;
+    font-size: 40px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.para3 .react-typewriter-text-wrap .react-typewriter-text {
+    font-family: 'Red Hat Display';
+    font-size: 50px;
+    color: green;
+    text-align: left;
+    line-height: 50px;
+    width: 100%;
+}
+
+@media (max-width: 575.98px) {
     .para {
         width: 90%;
-        font-size: 20px;
-
+        width: 70%;
+        padding: 22% 30px;
     }
-
+    .gUqzkk {
+        font-size: 20px;
+        right: 0;
+        bottom: 0;
+        left: 20%;
+        top: 70px;
+    }
+    .react-typewriter-text {
+        font-size: 28px !important;
+    }
     .para2 {
-        width: 100%;
-        font-size: 90px;
-        line-height: 40px;
         color: red;
         margin-top: 22%;
-        margin-left: 5%;
-
+        max-width: 395px;
     }
-
     .para3 {
         font-size: 30px;
-        width: 100%;
         line-height: 60px;
         color: blueviolet;
-        margin-left: 5%;
-        margin-top: 1%;
     }
-
+    .para2 .react-typewriter-text-wrap .react-typewriter-text {
+        max-width: 300px !important;
+    }
+    .para3 .react-typewriter-text-wrap .react-typewriter-text {
+        max-width: 300px !important;
+    }
     .name {
-        font-size: 40px !important;
-        margin-top: -60px;
-        margin-left: 6%;
         width: 100%;
-    }
-
-    .gUqzkk {
-        font-size: 25px;
-        position: absolute;
-        left: 90%;
-        top: 9%;
-
+        font-size: 1.8rem;
     }
 }
+
+@media (max-width: 767.98px) {
+    .gUqzkk {
+        font-size: 18px;
+        right: 0;
+        bottom: 0;
+        /* left: 20%;
+        top: 70px; */
+        left: 57%;
+        top: 75px;
+    }
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 1399.98px) {}

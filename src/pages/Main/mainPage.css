@@ -4,16 +4,13 @@
 
 .portImage {
     display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
+    justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
-    border-radius: 10px;
+    /* flex-wrap: wrap; */
     box-shadow: 0px 5px 20px -7px;
     transition: all 1s ease-in-out 0s;
     position: relative;
-
+    margin-bottom: 50px;
 }
 
 .portFolio {
@@ -23,7 +20,6 @@
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .Title {
@@ -35,37 +31,39 @@
     position: relative;
     -webkit-box-align: center;
     font-size: 3.5rem;
-
+    margin-top: 20%;
 }
 
 .img {
     height: auto;
-    width: 200px;
-    object-fit: cover;
+    width: 100%;
     border-radius: 3px;
-    background-position: left center;
+    background-position: center center;
 }
 
 .MovieAbout {
     padding-top: 0;
-
 }
 
 .MovieAbout {
-    width: 284px;
+    width: 50%;
     border: 1px solid green;
-    margin: 36px 8% 36px 10%;
+    box-sizing: border-box;
+    margin: 0 5%;
+    text-align: center;
+    padding: 4.2% 0;
+    position: relative;
 }
 
 .aboutTitle {
     color: rgb(168, 178, 187);
     text-align: center;
-    font-size: 20px;
+    font-size: 35px;
     overflow: hidden;
 }
 
 .paraI {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     padding-left: 10px;
     color: rgb(168, 178, 187);
@@ -75,33 +73,29 @@
     color: rgb(168, 178, 187);
     text-align: center;
     font-size: 15px;
-
-
 }
-
 
 .imgDiv .btn {
     position: absolute;
     background-color: black;
     color: white;
     font-size: 16px;
-    padding: 12px 24px;
+    padding: 10px 24px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
     top: 50%;
-
-    transform: translate(65%, -50%);
-
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid green;
 }
 
-
 .imgDiv {
-    width: 45%;
+    width: 50%;
     position: relative;
-    left: 19%;
-
+    box-sizing: border-box;
+    margin: 0 5%;
 }
 
 .imgDiv a {
@@ -112,22 +106,24 @@
     background-color: #121444;
     color: green;
     border: 2px solid green;
-
 }
 
+.btnLinkWrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 .LinkButton {
     text-decoration: none;
     border: 1px solid green;
     color: transparent;
-    padding: 10px 30px;
+    padding: 10px 28px;
     font-size: 15px;
     font-family: sans-serif;
-    /*letter-spacing: 0px;*/
     transition: all 0.5s;
     position: relative;
     text-align: center;
-    margin-left: 35%;
     background-color: black;
 }
 
@@ -183,42 +179,29 @@
     opacity: 0;
 }
 
-@media screen and (min-width: 400px) {
-    .Title {
-        margin-top: 20%;
-
-    }
-
-    .img {
-        width: 70%;
-    }
-
-    .imgDiv .btn {
-        transform: translate(-323%, -50%);
-    }
-
-    .imgDiv {
-        left: 10%;
-    }
-
-    .MovieAbout {
-        width: 429px;
-    }
-
+@media (max-width: 575.98px) {
     .aboutTitle {
-        font-size: 35px;
-
-    }
-
-    .paraI {
         font-size: 20px;
     }
-
-    .aboutTech {
+    .paraI {
         font-size: 15px;
     }
-
-    .LinkButton {
-        margin-left: 39%;
+    .imgDiv,
+    .MovieAbout {
+        width: 100%;
+        box-sizing: content-box;
+        margin: 0 5% 10px;
     }
 }
+
+@media (max-width: 767.98px) {
+    .portImage {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 1399.98px) {}

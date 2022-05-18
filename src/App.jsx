@@ -11,9 +11,9 @@ function App() {
         <div className="App">
             <Navber/>
             <IntroPage/>
-            <MeinPageProp/>
-            <AboutProps/>
-            <Contact/>
+            <MeinPageProp/> 
+             <AboutProps/> 
+             <Contact/>
 
         </div>
     );

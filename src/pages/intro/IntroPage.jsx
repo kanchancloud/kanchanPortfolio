@@ -8,18 +8,6 @@ function IntroPage(props) {
             <div className={"para2"}>
                 <TypeWriterEffect
                     className="para"
-                    textStyle={{
-                        fontFamily: 'Red Hat Display',
-                        color: 'white',
-                        fontWeight: 200,
-                        fontSize: '40px',
-                        textAlign: 'left',
-                        paddingLeft: "10px",
-                        white:"100%",
-                        lineHeight:"40px",
-
-
-                    }}
                     startDelay={2000}
                     cursorColor="#3F3D52"
                     multiText={[
@@ -34,16 +22,7 @@ function IntroPage(props) {
             </div>
 
             <div className="para3">
-                <TypeWriterEffect
-                    textStyle={{
-                        fontFamily: 'Red Hat Display',
-                        fontSize: "50px",
-                        color: "green",
-                        textAlign: 'left',
-                        marginLeft: "10px",
-                        lineHeight:"50px",
-                        white:"100%",
-                    }}
+                <TypeWriterEffect                    
                     startDelay={100}
                     cursorColor="black"
                     text="Front-End Developer"
@@ -51,8 +30,7 @@ function IntroPage(props) {
                     // scrollArea={myAppRef}
                 />
             </div>
-            <div className="name"><h6>KANCHAN
-                SHARMA</h6></div>
+            <div className="name"><span>KANCHAN SHARMA</span></div>
             <div className="gUqzkk">
                 <h1>PORTFOLIO</h1>
             </div>
