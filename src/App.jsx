@@ -1,6 +1,6 @@
 import './App.css';
 import Navber from "./component/nav/Navber";
-import MeinPageProp from "./pages/Main/MeinPageProp";
+import Mein from "./pages/Main/Mein";
 import IntroPage from "./pages/intro/IntroPage";
 import AboutPage from "./pages/about/AboutPage";
 import AboutProps from "./pages/about/AboutProps";
@@ -11,7 +11,7 @@ function App() {
         <div className="App">
             <Navber/>
             <IntroPage/>
-            <MeinPageProp/> 
+            <Mein/> 
              <AboutProps/> 
              <Contact/>
 

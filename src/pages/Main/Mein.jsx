@@ -16,9 +16,9 @@ function MeinPageProp() {
                 para="Simple movie with Api integration and Local Storage"
                 imgSrc="cart.png"
                 imageButton="https://shopping-rgwm.onrender.com"
-                aboutTech="Tech Stack : react js, react-router-dom, axios,
+                aboutTech="Tech Stack : react js, redux, react-router-dom, axios,
                         firebaseAuthentication, bootstrap"
-                button="https://shopping-rgwm.onrender.com" target="_blank"/>
+                button="https://shopping-rgwm.onrender.com"/>
         </div>
     );
 }
