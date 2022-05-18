@@ -2,7 +2,8 @@
     text-align: center;
     color: yellow;
 }
-.contactItem{
+
+.contactItem {
     bottom: 10%;
 }
 
@@ -14,17 +15,18 @@
     justify-content: center;
     gap: 4%;
 }
-.contactItem a{
+
+.contactItem a {
     color: white;
     text-decoration: none;
 }
 
-.contactItem :hover{
+.contactItem :hover {
     color: #4648c9;
 }
-@media screen and (min-width: 400px) {
-    .contactItem{
-        gap: 8%;
 
+@media screen and (min-width: 400px) {
+    .contactItem {
+        gap: 8%;
     }
 }

@@ -37,7 +37,7 @@
         display: block;
         list-style: none;
         justify-content: center;
-        gap: 10%;
+        /* gap: 10%; */
         height: 70px;
         padding-top: 2%;
         font-size: 13px;
@@ -49,6 +49,7 @@
 @media (max-width: 991.98px) {
     .introWrap {
         flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
