@@ -26,6 +26,11 @@ function Contact(props) {
                         <AiOutlineWhatsApp style={{height: "80px", width: "60%",}} className="icons3 "/><br/>
                         whatsapp</span></a><br/>
                     </div>
+                    <div className="ContactImg">
+                        <a href="https://www.linkedin.com/in/kanchan-sharma-1a41a1242" target="_blank"><span className="emailSpan">
+                        <AiOutlineWhatsApp style={{height: "80px", width: "60%",}} className="icons3 "/><br/>
+                        linkedin</span></a><br/>
+                    </div>
                 </div>
             </div>
         </div>

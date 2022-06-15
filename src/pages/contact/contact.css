@@ -13,7 +13,7 @@
     flex-wrap: wrap;
     color: white;
     justify-content: center;
-    gap: 4%;
+    gap: 8%;
 }
 
 .contactItem a {
@@ -25,8 +25,16 @@
     color: #4648c9;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 400px) {
     .contactItem {
-        gap: 8%;
+        gap: 4%;
+
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .contactItem {
+        gap: 4%;
+
     }
 }
