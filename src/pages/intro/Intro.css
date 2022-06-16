@@ -7,9 +7,13 @@
     position: relative;
     width: 90%;
     box-sizing: border-box;
-    padding-left: 8rem;
-    padding-top: 15%;
+    padding-left: 4rem;
+    padding-top: 20%;
 }
+/*.typeWritterWrapper {*/
+/*    min-width: calc(100% - 50px);*/
+/*    min-height: 8.75rem;*/
+/*}*/
 
 .para2 {
     overflow: hidden;
@@ -41,7 +45,7 @@
     font-weight: 200;
     font-size: 40px;
     text-align: left;
-    line-height: 40px;
+    /*line-height: 40px;*/
 }
 
 .para3 .react-typewriter-text-wrap .react-typewriter-text {
@@ -49,62 +53,97 @@
     font-size: 50px;
     color: green;
     text-align: left;
-    line-height: 50px;
+    /*line-height: 50px;*/
     width: 100%;
 }
 
 @media (max-width: 575.98px) {
     .para {
-        width: 90%;
-        width: 70%;
-        padding: 22% 30px;
+        width: 60%;
+        padding: 20% 25px;
     }
+
     .gUqzkk {
         font-size: 20px;
         right: 0;
         bottom: 0;
-        left: 20%;
-        top: 70px;
+        left: 25%;
+        top: 50px;
     }
+
     .react-typewriter-text {
         font-size: 28px !important;
     }
+
     .para2 {
         color: red;
-        margin-top: 22%;
-        max-width: 395px;
+        margin-top: 40%;
+        max-width: 300px;
     }
+
     .para3 {
-        font-size: 30px;
-        line-height: 60px;
+        font-size: 25px;
+        line-height: 30px;
         color: blueviolet;
+        width: 70%;
     }
+
     .para2 .react-typewriter-text-wrap .react-typewriter-text {
-        max-width: 300px !important;
+        max-width: 200px !important;
     }
+
     .para3 .react-typewriter-text-wrap .react-typewriter-text {
-        max-width: 300px !important;
+        max-width: 200px !important;
     }
+
     .name {
-        width: 100%;
-        font-size: 1.8rem;
+        width: 70%;
+        font-size: 1.1rem;
+        padding-top: 20px;
     }
 }
+
 
 @media (max-width: 767.98px) {
     .gUqzkk {
-        font-size: 18px;
+        font-size: 20px;
         right: 0;
         bottom: 0;
-        /* left: 20%;
-        top: 70px; */
-        left: 57%;
-        top: 75px;
+        left: 25%;
+        top: 50px;
     }
+
 }
+/*@media (max-width: 290.98px) {*/
+/*}*/
+/*.para {*/
+/*    width: 60%;*/
+/*    padding: 25% 30px;*/
+/*}*/
+/*.gUqzkk {*/
+/*    font-size: 20px;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    left: 20%;*/
+/*    top: 50px;*/
+/*}*/
 
-@media (max-width: 991.98px) {}
 
-@media (max-width: 1199.98px) {}
+/*@media (max-width: 882.98px) {*/
+/*    .para {*/
+/*        width: 60%;*/
+/*        padding: 25% 30px;*/
+/*    }*/
+/*    .gUqzkk {*/
+/*        font-size: 20px;*/
+/*        right: 0;*/
+/*        bottom: 0;*/
+/*        left: 60%;*/
+/*        top: 60px;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 1399.98px) {}
+
+
+@media (max-width: 1399.98px) {
+}

@@ -1,6 +1,7 @@
 .About {
     color: white;
     text-align: center;
+    padding-top: 3%;
 }
 
 .aboutMe {
@@ -42,17 +43,81 @@
         padding-top: 2%;
         font-size: 13px;
     }
+    .introWrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .techImg{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:1%;
+        width: 40px;
+    }
+    .imgBlock{
+        font-size: 20px;
+    }
 }
 
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+    .introWrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .techImg{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:1%;
+        width: 40px;
+    }
+    .imgBlock{
+        font-size: 20px;
+    }
+}
 
 @media (max-width: 991.98px) {
     .introWrap {
         flex-wrap: wrap;
         justify-content: center;
     }
+    .techImg{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:2%;
+        width: 40px;
+    }
+    .imgBlock{
+        font-size: 20px;
+    }
 }
 
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+    .introWrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .techImg{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:1%;
+        width: 40px;
+    }
+    .imgBlock{
+        font-size: 20px;
+    }
+}
 
-@media (max-width: 1399.98px) {}
+@media (max-width: 1399.98px) {
+    .introWrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .techImg{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:1%;
+        width: 40px;
+    }
+    .imgBlock{
+        font-size: 20px;
+    }
+}

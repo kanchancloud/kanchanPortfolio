@@ -4,7 +4,7 @@
 
 .portImage {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     /* flex-wrap: wrap; */
     box-shadow: 0px 5px 20px -7px;
