@@ -8,13 +8,15 @@ function AboutProps(props) {
         <div className="imgBlock1">
             <AboutPage image="html.png" para="HTML"/>
             <div className={"footerIconContainer"}>
+                <ImageWrapper image="1_j3GPPrDmy2CqnxPw-NtWHg.png" para="Figma"/>
+                <ImageWrapper image="hjixnzui1nhq3trfcwx8.png" para="Adobe XD"/>
+                <ImageWrapper image="photoshop.png" para="Photoshop"/>
+                <ImageWrapper image="Adobe_Illustrator_CC_icon.svg.png" para="Illustrator"/>
                 <ImageWrapper image="html.png" para="HTML"/>
                 <ImageWrapper image="CSS3_logo.svg.png" para="CSS"/>
                 <ImageWrapper image="JavaScript-Logo.jpg" para="Javascript"/>
                 <ImageWrapper image="typescript.png" para="typescript"/>
                 <ImageWrapper image="react-1-logo-png-transparent.png" para="react JS"/>
-                <ImageWrapper image="redux.png" para="redux"/>
-                <ImageWrapper image="Bootstrap_logo.svg.png" para="Bootstrap"/>
             </div>
         </div>
     );

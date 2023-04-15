@@ -1,13 +1,20 @@
 .nav {
     gap: 10%;
-    background-color: #000;
-    z-index: 1;
+    /*z-index: 1;*/
     display: flex;
     justify-content: center;
-    padding: 1% 2%;
+   padding-top: 50px;
     position: fixed;
     width: 100%;
     font-size: 20px;
+    list-style: none;
+    z-index: auto;
+}
+.backgroundImage{
+    background-image: url('/public/ui/Group 1.png');
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
 }
 
 .nav a {
@@ -16,20 +23,19 @@
 
 .navLi a {
     text-decoration: none;
-    color: white;
+    color: #f881ff;
 }
 
 .navLi a:hover {
-    border-bottom: 2px solid #2c2cb2;
+    border-bottom: 2px solid #eaeaf8;
 }
 
 .navLi a:active {
-    border-bottom: 2px solid red;
+    border-bottom: 3px solid red;
 }
 
 .nav {
     overflow: hidden;
-    background-color: #000;
     z-index: 1;
 }
 

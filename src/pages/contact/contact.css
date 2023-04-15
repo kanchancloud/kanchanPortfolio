@@ -1,6 +1,6 @@
 .ContactWrap h1 {
     text-align: center;
-    color: yellow;
+    color:#7700c4;
     padding-top: 3%;
 }
 
@@ -19,12 +19,12 @@
 }
 
 .contactItem a {
-    color: white;
+    color:#7c0fc2;
     text-decoration: none;
 }
 
 .contactItem :hover {
-    color: #4648c9;
+    color: #aa4cf3;
 }
 
 @media screen and (max-width: 400px) {

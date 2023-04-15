@@ -1,19 +1,16 @@
 .About {
-    color: white;
     text-align: center;
-    padding-top: 3%;
 }
 
 .aboutMe {
     font-size: 40px;
-    color: yellow;
+    color: #7700c4;
 }
 
 .introWrap {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    color: white;
+    color: #9732e7;
     justify-content: center;
     font-size: 18px;
 }
@@ -28,9 +25,8 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    color: white;
-    font-size: 25px;
     flex-flow: row wrap;
+    color: #9732e7;
 }
 
 @media (max-width: 575.98px) {

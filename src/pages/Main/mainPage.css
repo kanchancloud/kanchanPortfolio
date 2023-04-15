@@ -6,13 +6,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
-    box-shadow: 0px 5px 20px -7px;
     transition: all 1s ease-in-out 0s;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 2%;
 }
+.uiUx {
+        border: 2px solid #f9d2fa;
+    box-shadow: 0px 13px 50px 13px #896da2;
+    padding: 4% 2%;
+    margin: 0px 20px;
+    }
+.uiHead{
+    text-align: center;
+    font-size: 30px;
+    color:blueviolet;
+    font-weight: 600;
+}
+.uiImage, .illuImage{
+    text-align: center;
+    font-size: 15px;
+    color:blueviolet;
+    font-weight: 600;
+}
+.jdklfsj{
+    border: 2px solid #f9d2fa;
+    box-shadow: 0px 13px 50px 13px #896da2;
+    padding: 20px 2%;
+    margin: 3% 20px;
 
+}
+.uiImage{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.uiImage img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 13px 50px 13px #896da2;
+}
 .portFolio {
     display: flex;
     -webkit-box-align: center;
@@ -21,17 +53,38 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+.uiUxDesign{
+    border: 2px solid #f9d2fa;
+    box-shadow: 0px 13px 50px 13px #896da2;
+    padding: 55px 2%;
+    margin: 3% 20px;
+}
+.illuImage{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.illuImage img{
+    box-shadow: 0px 13px 50px 13px #896da2;
+    width: 100%;
+    height: 100%;
+}
+.illuDiv{
+    width: 33.33%;
+}
 
 .Title {
     text-align: center;
     font-family: Poppins, serif;
     font-weight: 500;
-    color: yellow;
+    color:  #7700c4;
     transition: all 1s ease-in-out 0s;
     position: relative;
     -webkit-box-align: center;
     font-size: 3.5rem;
-    margin-top: 20%;
+}
+.graphic{
+    display: flex;
 }
 
 .img {
@@ -39,6 +92,7 @@
     width: 100%;
     border-radius: 3px;
     background-position: center center;
+    box-shadow: 0px 13px 50px 13px #896da2;
 }
 
 .MovieAbout {
@@ -47,16 +101,17 @@
 
 .MovieAbout {
     width: 50%;
-    border: 1px solid green;
+    border: 1px solid #f5caf6;
     box-sizing: border-box;
     margin: 0 5%;
     text-align: center;
     padding: 4.2% 0;
     position: relative;
+    box-shadow: 0px 13px 50px 13px #896da2;
 }
 
 .aboutTitle {
-    color: rgb(168, 178, 187);
+    color: rgb(141 65 201);
     text-align: center;
     font-size: 35px;
     overflow: hidden;
@@ -66,11 +121,11 @@
     font-size: 20px;
     text-align: center;
     padding-left: 10px;
-    color: rgb(168, 178, 187);
+    color: rgb(162 94 215);
 }
 
 .aboutTech {
-    color: rgb(168, 178, 187);
+    color: rgb(162 94 215);
     text-align: center;
     font-size: 15px;
 }
@@ -116,7 +171,7 @@
 
 .LinkButton {
     text-decoration: none;
-    border: 1px solid green;
+    border: 1px solid #98049b;
     color: transparent;
     padding: 10px 28px;
     font-size: 15px;
@@ -124,7 +179,7 @@
     transition: all 0.5s;
     position: relative;
     text-align: center;
-    background-color: black;
+    background-color: #9332d1;
 }
 
 .LinkButton:before {
@@ -133,7 +188,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    background: #4648c9;
+    background: #e02cbd;
     font-size: 20px;
     top: 0;
     left: 100%;
@@ -158,8 +213,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: green;
-    background: rgb(34, 34, 34);
+    color: #7d1cca;
+    background: #edc0ed;
     font-size: 15px;
     top: 0;
     left: 0;

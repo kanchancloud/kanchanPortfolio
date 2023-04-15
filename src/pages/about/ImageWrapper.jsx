@@ -4,7 +4,7 @@ function ImageWrapper(props) {
     return (
         <div className="imgBlock">
             <img src={props.image} alt="img" className="techImg"/>
-            <h6>{props.para}</h6>
+            <p>{props.para}</p>
         </div>
     );
 }

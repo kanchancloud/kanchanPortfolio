@@ -10,10 +10,11 @@ function AboutPage(props) {
             </h1>
             <div className="introWrap">
                     <p>Hello ! My name is kanchan sharma.
-                        I am a self taught Web Developer.
-                        I love creating fascinating stuff and making both static and functional websites.</p>
+                        I am a self taught UI/UX Designer.
+                        I am motivation to create something user-friendly and beautiful.
+                    </p>
                     <p>
-                        I am comfortable in using following technologies :
+                        I am comfortable using this software's and technologies :
                     </p>
                     <br/>
             </div>

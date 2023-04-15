@@ -1,6 +1,7 @@
 .para {
     font-family: Red Hat Display;
-    color: white;
+    /*color: white;*/
+    color: #ad7603;
     font-weight: 200;
     font-size: 20px;
     text-align: left;
@@ -9,11 +10,9 @@
     box-sizing: border-box;
     padding-left: 4rem;
     padding-top: 20%;
+    /*background-image: url("backgroundImage.jpg");*/
+
 }
-/*.typeWritterWrapper {*/
-/*    min-width: calc(100% - 50px);*/
-/*    min-height: 8.75rem;*/
-/*}*/
 
 .para2 {
     overflow: hidden;
@@ -22,9 +21,8 @@
 
 .gUqzkk {
     transform: rotate(90deg);
-    color: rgb(168, 178, 187);
     font-size: 25px;
-    opacity: 0.6;
+color: rgb(155 22 70);
     position: absolute;
     box-sizing: border-box;
     right: 0;
@@ -51,7 +49,7 @@
 .para3 .react-typewriter-text-wrap .react-typewriter-text {
     font-family: 'Red Hat Display';
     font-size: 50px;
-    color: green;
+    color: #fd7fff;
     text-align: left;
     /*line-height: 50px;*/
     width: 100%;
