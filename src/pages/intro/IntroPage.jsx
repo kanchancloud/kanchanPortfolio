@@ -16,8 +16,8 @@ function IntroPage(props) {
                             'design together...',
 
                         ]}
-                        multiTextDelay={1200}
-                        typeSpeed={30}
+                        multiTextDelay={2000}
+                        typeSpeed={50}
                     />
                 </div>
 

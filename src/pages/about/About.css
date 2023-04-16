@@ -3,7 +3,7 @@
 }
 
 .aboutMe {
-    font-size: 3.5rem;
+    font-size:3.3rem;
     font-weight: 500;
     color: #7700c4;
     font-family: Poppins, serif;
@@ -26,9 +26,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
     flex-flow: row wrap;
     color: #9732e7;
+}
+.footerIconContainer p{
+    padding-top: 15px;
+    margin: 0px;
 }
 .shadowDiv{
     box-shadow: 10px 10px 15px 10px #896da2 ;
@@ -37,7 +41,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px 25px;
+    padding: 20px 25px;
 }
 
 

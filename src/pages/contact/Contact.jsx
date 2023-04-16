@@ -13,7 +13,7 @@ function Contact() {
                     <div className="ContactImg">
                         <div className="borderShadowDiv">
                             <a href="mailto:kanchansharma@gmail.com" target="_blank"><span className="emailSpan">
-                        <AiOutlineMail style={{height: "80px", width: "60%",}} className="icons1"/>
+                        <AiOutlineMail style={{height: "60px", width: "100%",}} className="icons1"/>
                         <br/>
                         email</span></a><br/>
                         </div>
@@ -21,14 +21,14 @@ function Contact() {
                     <div className="ContactImg">
                         <div className="borderShadowDiv">
                         <a href="https://github.com/kanchancloud" target="_blank"><span className="emailSpan">
-                        <AiFillGithub style={{height: "80px", width: "60%",}} className="icons2"/><br/>
+                        <AiFillGithub style={{height: "60px", width: "100%",}} className="icons2"/><br/>
                         Github</span></a><br/>
                             </div>
                     </div>
                     <div className="ContactImg">
                         <div className="borderShadowDiv">
                         <a href="https://www.linkedin.com/in/kanchan-sharma-1a41a1242" target="_blank"><span className="emailSpan">
-                        <FaLinkedin style={{height: "80px", width: "60%",}} className="icons3 "/><br/>
+                        <FaLinkedin style={{height: "60px", width: "100%",}} className="icons3 "/><br/>
                         linkedin
                         </span>
                         </a>
