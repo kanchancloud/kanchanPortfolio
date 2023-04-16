@@ -1,7 +1,15 @@
-.ContactWrap h1 {
+.ContactWrap p{
     text-align: center;
     color:#7700c4;
-    padding-top: 3%;
+    font-size: 3.5rem;
+    font-weight: 500;
+    font-family: Poppins, serif;
+}
+.borderShadowDiv{
+    box-shadow: 10px 10px 15px 10px #896da2 ;
+    border: 1px solid #f5caf6;
+    padding: 10px 25px;
+    text-align: center;
 }
 
 .contactItem {
@@ -10,9 +18,7 @@
 
 .contactItem {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    color: white;
     justify-content: center;
     gap: 8%;
 

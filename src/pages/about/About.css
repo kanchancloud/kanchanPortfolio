@@ -3,8 +3,10 @@
 }
 
 .aboutMe {
-    font-size: 40px;
+    font-size: 3.5rem;
+    font-weight: 500;
     color: #7700c4;
+    font-family: Poppins, serif;
 }
 
 .introWrap {
@@ -28,15 +30,24 @@
     flex-flow: row wrap;
     color: #9732e7;
 }
+.shadowDiv{
+    box-shadow: 10px 10px 15px 10px #896da2 ;
+    display: flex;
+    border: 1px solid #f5caf6;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+}
+
 
 @media (max-width: 575.98px) {
     .nav {
-        display: block;
         list-style: none;
         justify-content: center;
         /* gap: 10%; */
         height: 70px;
-        padding-top: 2%;
+        padding-top: 11%;
         font-size: 13px;
     }
     .introWrap {

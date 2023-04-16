@@ -7,34 +7,36 @@ import { FaLinkedin } from "react-icons/fa";
 
 function Contact() {
     return (
-        <div>
             <div id="contact" className="ContactWrap">
-                <h1>CONTACT</h1>
+                <p>Contact</p>
                 <div className="contactItem">
                     <div className="ContactImg">
-                        <a href="mailto:kanchansharma@gmail.com" target="_blank"><span className="emailSpan">
+                        <div className="borderShadowDiv">
+                            <a href="mailto:kanchansharma@gmail.com" target="_blank"><span className="emailSpan">
                         <AiOutlineMail style={{height: "80px", width: "60%",}} className="icons1"/>
                         <br/>
                         email</span></a><br/>
+                        </div>
                     </div>
                     <div className="ContactImg">
+                        <div className="borderShadowDiv">
                         <a href="https://github.com/kanchancloud" target="_blank"><span className="emailSpan">
                         <AiFillGithub style={{height: "80px", width: "60%",}} className="icons2"/><br/>
                         Github</span></a><br/>
+                            </div>
                     </div>
-                    {/*<div className="ContactImg">*/}
-                    {/*    <a href="https://api.whatsapp.com/send?phone=917065121915" target="_blank"><span className="emailSpan">*/}
-                    {/*    <FaLinkedin style={{height: "80px", width: "60%",}} className="icons3 "/><br/>*/}
-                    {/*    whatsapp</span></a><br/>*/}
-                    {/*</div>*/}
                     <div className="ContactImg">
+                        <div className="borderShadowDiv">
                         <a href="https://www.linkedin.com/in/kanchan-sharma-1a41a1242" target="_blank"><span className="emailSpan">
                         <FaLinkedin style={{height: "80px", width: "60%",}} className="icons3 "/><br/>
-                        linkedin</span></a><br/>
+                        linkedin
+                        </span>
+                        </a>
+                            <br/>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     );
 }
 
