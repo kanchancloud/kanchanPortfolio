@@ -8,7 +8,7 @@ function MeinPage(props) {
                 <div className="portImage">
                     <div className="imgDiv">
                         <img src={props.imgSrc} alt="img" className="img" />
-                        <a href={props.imageButton} target="_blank" className="btn">watch</a>
+                        {/*<a href={props.imageButton} target="_blank" className="btn">watch</a>*/}
                     </div>
                     <div className="MovieAbout">
                         <h3 className="aboutTitle">{props.aboutTitle}</h3>

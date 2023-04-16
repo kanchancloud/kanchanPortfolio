@@ -1,6 +1,5 @@
 import React from 'react';
 import "./About.css";
-import ImageWrapper from "./ImageWrapper";
 
 function AboutPage(props) {
     return (
