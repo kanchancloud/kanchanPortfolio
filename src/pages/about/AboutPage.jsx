@@ -5,9 +5,9 @@ import ImageWrapper from "./ImageWrapper";
 function AboutPage(props) {
     return (
         <div className="About" id="portfolioAbout">
-            <h1 className="aboutMe">
-                ABOUT ME
-            </h1>
+            <p className="aboutMe">
+                About Me
+            </p>
             <div className="introWrap">
                     <p>Hello ! My name is kanchan sharma.
                         I am a self taught UI/UX Designer.

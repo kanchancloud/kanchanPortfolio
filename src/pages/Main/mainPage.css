@@ -56,15 +56,34 @@
 .uiUxDesign{
     border: 2px solid #f9d2fa;
     box-shadow: 0px 13px 50px 13px #896da2;
-    padding: 55px 2%;
+    padding: 0px 2% 7%;
     margin: 3% 20px;
+}
+.PhotoshopDesign{
+    border: 2px solid #f9d2fa;
+    box-shadow: 0px 13px 50px 13px #896da2;
+    padding: 0px 2% 7%;
+    margin: 3% 20px;
+    color:blueviolet;
+    font-weight: 600;
+    text-align: center;
 }
 .illuImage{
     display: flex;
     justify-content: center;
     gap: 30px;
 }
+.PhotoshopImage{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 .illuImage img{
+    box-shadow: 0px 13px 50px 13px #896da2;
+    width: 100%;
+    height: 100%;
+}
+.PhotoshopImage img{
     box-shadow: 0px 13px 50px 13px #896da2;
     width: 100%;
     height: 100%;
@@ -132,7 +151,7 @@
 
 .imgDiv .btn {
     position: absolute;
-    background-color: black;
+    background-color: #9957c4;
     color: white;
     font-size: 16px;
     padding: 10px 24px;
@@ -143,7 +162,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid green;
+    border: 2px solid #febaff;
 }
 
 .imgDiv {
@@ -158,9 +177,9 @@
 }
 
 .btn:hover {
-    background-color: #121444;
-    color: green;
-    border: 2px solid green;
+    background: #ff9cff;;
+    color: white;
+    border: 2px solid #febaff;
 }
 
 .btnLinkWrapper {
@@ -246,6 +265,32 @@
         width: 100%;
         box-sizing: content-box;
         margin: 0 5% 10px;
+    }
+    .illuDiv{
+        width: 33.33%;
+    }
+    .graphic{
+       flex-wrap: wrap;
+    }
+    .uiUx{
+        margin: 0px 20px;
+        padding: 0px 20px 20%;
+    }
+    .uiUxDesign{
+        margin: 3% 20px;
+        padding: 0px 20px 20%;
+    }
+    .PhotoshopDesign{
+        margin: 3% 20px;
+        padding: 0px 20px 20%;
+    }
+    .PhotoshopImage{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        flex-wrap: wrap;
+        text-align: center;
+
     }
 }
 
