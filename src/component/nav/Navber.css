@@ -31,7 +31,7 @@
 }
 
 .navLi a:active {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #fd7fff;
 }
 
 .nav {

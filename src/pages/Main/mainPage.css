@@ -51,6 +51,10 @@
     height: 100%;
     box-shadow: 0px 13px 50px 13px #896da2;
 }
+.uiImage a:hover{
+    color: #ae58ff;
+}
+
 .portFolio {
     display: flex;
     -webkit-box-align: center;
@@ -90,6 +94,12 @@
     box-shadow: 0px 13px 50px 13px #896da2;
     width: 100%;
     height: 100%;
+}
+.illuDiv a:hover{
+    color: #ae58ff;
+}
+.illuDiv a{
+    text-decoration: none;
 }
 .PhotoshopImage img{
     box-shadow: 0px 13px 50px 13px #896da2;
@@ -259,6 +269,13 @@
     transform: scale(0) rotatey(360deg);
     left: 100%;
     opacity: 0;
+}
+.illuDiv a{
+    text-decoration: none;
+    color:blueviolet;
+}
+.illuDiv a:hover{
+    color: #ae58ff;
 }
 
 @media (max-width: 575.98px) {
