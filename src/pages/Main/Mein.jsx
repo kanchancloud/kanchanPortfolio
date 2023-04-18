@@ -84,12 +84,12 @@ function MeinPageProp() {
                         <p>Double exposure Effect</p>
                         </a>
                     </div>
-                    <div  className="illuDiv">
-                        <a href="girls face.psd" target="_blank">
-                        <img src="girl face.png" alt={"img"} />
-                        <p>Text portrait Effect</p>
-                        </a>
-                    </div>
+                    {/*<div  className="illuDiv">*/}
+                    {/*    <a href="girls face.psd" target="_blank">*/}
+                    {/*    <img src="girl face.png" alt={"img"} />*/}
+                    {/*    <p>Text portrait Effect</p>*/}
+                    {/*    </a>*/}
+                    {/*</div>*/}
                 </div>
             </div>
             </div>
