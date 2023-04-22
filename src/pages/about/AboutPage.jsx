@@ -9,7 +9,7 @@ function AboutPage(props) {
                 About Me
             </p>
             <div className="introWrap">
-                    <p>Hello ! My name is kanchan sharma.
+                    <p>Hello ! My name is <span>Kanchan sharma.</span>
                         I am a self taught UI/UX Designer.
                         I am motivation to create something user-friendly and beautiful.
                     </p>
