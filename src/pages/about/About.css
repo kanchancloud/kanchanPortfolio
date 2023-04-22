@@ -8,6 +8,11 @@
     color: #7700c4;
     font-family: Poppins, serif;
 }
+/*.imgBlock1{*/
+/*    background-image: url("/public/Group 1.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: right;*/
+/*}*/
 
 .introWrap {
     flex-direction: row;

@@ -3,7 +3,8 @@ import "./About.css";
 
 function AboutPage(props) {
     return (
-        <div className="About" id="portfolioAbout">
+        <div id="portfolioAbout" className="aboutBack">
+        <div className="About" >
             <p className="aboutMe">
                 About Me
             </p>
@@ -17,6 +18,7 @@ function AboutPage(props) {
                     </p>
                     <br/>
             </div>
+        </div>
         </div>
     );
 }

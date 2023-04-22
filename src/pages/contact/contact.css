@@ -12,6 +12,10 @@
     text-align: center;
     border-radius: 10px;
 }
+/*.ContactWrap{*/
+/*    background-image: url("/public/Group 1.png");*/
+/*    background-repeat: no-repeat;*/
+/*}*/
 
 .contactItem {
     padding-bottom: 6%;
@@ -33,6 +37,7 @@
 .contactItem :hover {
     color: #aa4cf3;
 }
+
 
 @media screen and (max-width: 400px) {
     .contactItem {
