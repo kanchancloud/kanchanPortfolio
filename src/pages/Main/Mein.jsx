@@ -36,19 +36,19 @@ function MeinPageProp() {
                     <div  className="illuDiv">
                         <a href="mandala painting illustrator.ai" target="_blank">
                         <img src="mandala painting illustrator.jpg" alt={"img"} />
-                        <p>Mandala painting</p>
+                        <p>Mandala Painting</p>
                         </a>
                     </div>
                     <div  className="illuDiv">
                         <a href="mango 3d.ai" target="_blank">
                         <img src="mango 3d.jpg2.jpg" alt={"img"} />
-                        <p>3D mango</p>
+                        <p>3D Mango</p>
                         </a>
                     </div>
                     <div  className="illuDiv">
                         <a href="New Project.jpg" target="_blank">
                         <img src="New Project.jpg" alt={"img"} />
-                        <p>logo Design</p>
+                        <p>Logo Design</p>
                         </a>
                     </div>
                 </div>
@@ -69,13 +69,13 @@ function MeinPageProp() {
                     <div  className="illuDiv">
                         <a href="cartoon gif-1.psd" target="_blank">
                         <img src="cartoon.png" alt={"img"} />
-                        <p>cartoon GIF</p>
+                        <p>Cartoon GIF</p>
                         </a>
                     </div>
                     <div  className="illuDiv">
                         <a href="fireApple.psd" target="_blank">
                         <img src="fireApple.jpg" alt={"img"} />
-                        <p>fire Effect</p>
+                        <p>Fire Effect</p>
                         </a>
                     </div>
                     <div  className="illuDiv">

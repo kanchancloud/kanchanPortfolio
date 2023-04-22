@@ -29,7 +29,7 @@
 }
 .uiImage, .illuImage{
     text-align: center;
-    font-size: 15px;
+    /*font-size: 15px;*/
     color:blueviolet;
     font-weight: 600;
 }
@@ -104,7 +104,7 @@
 .PhotoshopImage img{
     box-shadow: 0 5px 10px 4px #896da2;
     width: 100%;
-    height: 90%;
+    height: 95%;
 }
 .illuDiv{
     width: 33.33%;
