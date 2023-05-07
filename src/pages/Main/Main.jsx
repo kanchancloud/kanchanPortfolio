@@ -11,7 +11,7 @@ function MeinPageProp() {
                 <div className="uiImage">
                     <div>
                         <a href="https://www.figma.com/proto/tEzd2BgebkxBxkgCDuc5gI/Untitled?page-id=0%3A1&type=design&node-id=108-651&viewport=447%2C-550%2C0.16&scaling=scale-down-width&starting-point-node-id=82%3A20" target="_blank">
-                            <img src="homepage.png" alt={"img"} />
+                            <img src="portfolio2.png" alt={"img"} />
                                 
                             <p>Portfolio design in figma</p>
                         </a>
