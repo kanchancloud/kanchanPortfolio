@@ -1,7 +1,7 @@
 import React from 'react';
 import './mainPage.css';
 
-function MeinPage(props) {
+function MainPage(props) {
     return (
         <div>
             <div className="portFolio">
@@ -24,4 +24,4 @@ function MeinPage(props) {
     );
 }
 
-export default MeinPage;
+export default MainPage;

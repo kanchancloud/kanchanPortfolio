@@ -1,6 +1,6 @@
 import './App.css';
 import Navber from "./component/nav/Navber";
-import Mein from "./pages/Main/Mein";
+import Main from "./pages/Main/Main";
 import IntroPage from "./pages/intro/IntroPage";
 import AboutProps from "./pages/about/AboutProps";
 import Contact from "./pages/contact/Contact";
@@ -9,7 +9,7 @@ function App() {
     return (
         <div className="App">
             <Navber/>
-            <Mein/>
+            <Main/>
              <AboutProps/>
              <Contact/>
 

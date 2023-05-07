@@ -1,5 +1,5 @@
 import React from 'react';
-import MeinPage from "./MeinPage";
+import MainPage from "./MainPage";
 import "./mainPage.css"
 
 function MeinPageProp() {
@@ -10,7 +10,7 @@ function MeinPageProp() {
                 <p className="uiHead">Some UI/UX design </p>
                 <div className="uiImage">
                     <div>
-                        <a href=https:"//www.figma.com/proto/tEzd2BgebkxBxkgCDuc5gI/Untitled?page-id=0%3A1&type=design&node-id=108-651&viewport=447%2C-550%2C0.16&scaling=scale-down-width&starting-point-node-id=82%3A20" target="_blank">
+                        <a href="https://www.figma.com/proto/tEzd2BgebkxBxkgCDuc5gI/Untitled?page-id=0%3A1&type=design&node-id=108-651&viewport=447%2C-550%2C0.16&scaling=scale-down-width&starting-point-node-id=82%3A20" target="_blank">
                             <img src="homepage.png" alt={"img"} />
                                 
                             <p>Portfolio design in figma</p>
@@ -96,19 +96,19 @@ function MeinPageProp() {
             </div>
             <div className={"jdklfsj"}>
                 <p className="uiHead"> React Js Personal Project</p>
-            <MeinPage aboutTitle="Movie"
-                para="Simple shopping cart with Api integration and Local Storage"
-                imgSrc="Screenshot (4).png"
-                imageButton="https://mymovie.onrender.com"
-                aboutTech="Tech Stack : React axios react-router-dom marital-ui"
-                button="https://mymovie.onrender.com" target="_blank" />
-            <MeinPage aboutTitle="shopping "
-                para="Simple movie with Api integration and Local Storage"
-                imgSrc="cart.png"
-                imageButton="https://shopping-rgwm.onrender.com"
-                aboutTech="Tech Stack : react js, redux, react-router-dom, axios,
+            <MainPage aboutTitle="Movie"
+                      para="Simple shopping cart with Api integration and Local Storage"
+                      imgSrc="Screenshot (4).png"
+                      imageButton="https://mymovie.onrender.com"
+                      aboutTech="Tech Stack : React axios react-router-dom marital-ui"
+                      button="https://mymovie.onrender.com" target="_blank" />
+            <MainPage aboutTitle="shopping "
+                      para="Simple movie with Api integration and Local Storage"
+                      imgSrc="cart.png"
+                      imageButton="https://shopping-rgwm.onrender.com"
+                      aboutTech="Tech Stack : react js, redux, react-router-dom, axios,
                         firebaseAuthentication, bootstrap"
-                button="https://shopping-rgwm.onrender.com"/>
+                      button="https://shopping-rgwm.onrender.com"/>
             </div>
         </div>
     );
