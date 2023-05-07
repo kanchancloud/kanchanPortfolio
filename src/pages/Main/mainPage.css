@@ -319,13 +319,34 @@
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
     .portImage {
         flex-wrap: wrap;
     }
+    .PhotoshopDesign{
+        margin: 3% 20px;
+        padding: 0px 20px 9% 20%;
+    }
+    .PhotoshopImage{
+        gap:24px;
+    }
+    .uiHead{
+        font-size: 25px;
+    }
+    .uiUx {
+            padding: 0 2% 7% 4%;
+    }
+
 }
 
-@media (max-width: 991.98px) {}
+@media (max-width: 1024px) {
+    .PhotoshopDesign, .uiUxDesign {
+        padding: 0 2% 7% 4%;
+    }
+    .uiUx {
+            padding: 0 2% 5% 4%;
+    }
+}
 
 @media (max-width: 1199.98px) {}
 
