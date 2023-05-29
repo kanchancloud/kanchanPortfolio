@@ -46,6 +46,7 @@
     justify-content: center;
     gap: 50px;
 }
+
 .uiImage img{
     width: 100%;
     height: 100%;
@@ -282,7 +283,7 @@
     /*    padding: 0 2% 7% 4%;*/
     /*}*/
     .uiUx {
-        padding: 0 2% 6% 4%;
+        padding: 0 2% 8% 4%;
     }
     .PhotoshopDesign, .uiUxDesign {
         padding: 0 10px 9% 10px;
@@ -310,6 +311,14 @@
     }
     .PhotoshopDesign, .uiUxDesign {
         padding: 0 10px 9% 10px;
+    }
+    .uiImage{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .illuImage{
+        flex-wrap: wrap;
+        display: flex;
     }
 
 }
@@ -351,7 +360,14 @@
         gap: 60px;
         flex-wrap: wrap;
         text-align: center;
-
+    }
+    .uiImage{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .illuImage{
+        flex-wrap: wrap;
+        display: flex;
     }
 }
 
