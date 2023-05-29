@@ -283,7 +283,7 @@
     /*    padding: 0 2% 7% 4%;*/
     /*}*/
     .uiUx {
-        padding: 0 2% 8% 4%;
+        padding: 0 2% 6% 4%;
     }
     .PhotoshopDesign, .uiUxDesign {
         padding: 0 10px 9% 10px;
@@ -292,13 +292,16 @@
         gap: 25px;
     }
 }
-@media (max-width: 765px) {
+@media (max-width: 768px) {
     .portImage {
         flex-wrap: wrap;
     }
     .PhotoshopDesign{
         margin: 3% 20px;
         padding: 0px 20px 9% 20%;
+    }
+    .graphic{
+        flex-wrap: wrap;
     }
     .PhotoshopImage{
         gap:24px;
@@ -317,7 +320,7 @@
         flex-wrap: wrap;
     }
     .illuImage{
-        flex-wrap: wrap;
+        /*flex-wrap: wrap;*/
         display: flex;
     }
 
@@ -360,13 +363,14 @@
         gap: 60px;
         flex-wrap: wrap;
         text-align: center;
+
     }
     .uiImage{
         display: flex;
         flex-wrap: wrap;
     }
     .illuImage{
-        flex-wrap: wrap;
+        /*flex-wrap: wrap;*/
         display: flex;
     }
 }
@@ -374,6 +378,11 @@
 
 
 
-@media (max-width: 1199.98px) {}
+@media (max-width: 320px) {
+    .illuImage {
+        flex-wrap: wrap;
+        display: flex;
+    }
+}
 
 @media (max-width: 1399.98px) {}
