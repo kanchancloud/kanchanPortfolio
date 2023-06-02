@@ -12,10 +12,19 @@
     text-align: center;
     border-radius: 10px;
 }
-/*.ContactWrap{*/
-/*    background-image: url("/public/Group 1.png");*/
-/*    background-repeat: no-repeat;*/
-/*}*/
+.icons1{
+    height: 60px;
+    width: 100%;
+}
+.icons2{
+    height: 60px;
+    width: 100%;
+}
+.icons3{
+    height: 60px;
+    width: 100%;
+}
+
 
 .contactItem {
     padding-bottom: 6%;
@@ -39,7 +48,7 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media (max-width: 575.98px) {
     .contactItem {
         gap: 4%;
     }
@@ -51,40 +60,13 @@
         text-align: center;
         padding-bottom: 30%;
     }
-}
-
-@media screen and (max-width: 370px) {
-    .contactItem {
-        gap: 4%;
+    .icons1{
+        width: 35px;
     }
-
-    .ContactImg {
-        height: 20px;
-        width: 20%;
-        font-size: 15px;
-        text-align: center;
-        padding-bottom: 30%;
+    .icons2{
+        width: 35px;
     }
-    .borderShadowDiv{
-        padding: 10px;
-    }
-
-}
-
-
-@media screen and (max-width: 200px) {
-    .contactItem {
-        gap: 4%;
-    }
-
-    .ContactImg {
-        height: 20px;
-        /*width: 20%;*/
-        font-size: 15px;
-        text-align: center;
-        padding-bottom: 30%;
-    }
-    .borderShadowDiv{
-        padding: 10px;
+    .icons3{
+        width: 35px;
     }
 }

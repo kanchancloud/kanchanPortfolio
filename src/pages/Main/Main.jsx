@@ -9,24 +9,36 @@ function MeinPageProp() {
             <div className={"uiUx"}>
                 <p className="uiHead">Some UI/UX design </p>
                 <div className="uiImage">
+                    <div className={"bigDiv"}>
                     <div>
                         <a href="https://www.figma.com/proto/tEzd2BgebkxBxkgCDuc5gI/Untitled?page-id=0%3A1&type=design&node-id=108-651&viewport=447%2C-550%2C0.16&scaling=scale-down-width&starting-point-node-id=82%3A20" target="_blank">
-                            <img src="portfolio2.png" alt={"img"} />
+                            <img src="portfolio2.png" alt={"img"} className={"bigImage"}/>
                             <p>Portfolio design in figma</p>
                         </a>
                     </div>
                     <div>
-                        <a href="https://www.figma.com/proto/5Z8AjOuqRiyEytpwQd2g8r/Untitled?page-id=0%3A1&type=design&node-id=8-46&viewport=287%2C313%2C0.35&scaling=scale-down-width" target="_blank">
-                            <img src="Screenshot 2023-05-28 173613.png" alt={"img"} />
-                            <p>design in figma</p>
+                        <a href="https://www.figma.com/proto/5Z8AjOuqRiyEytpwQd2g8r/Untitled?page-id=0%3A1&type=design&node-id=8-46&viewport=194%2C136%2C0.36&scaling=scale-down-width&starting-point-node-id=63%3A6" target="_blank">
+                            <img src="Screenshot 2023-05-28 173613.png" alt={"img"} className={"bigImage"}/>
+                            <p>Design in Figma</p>
                         </a>
                     </div>
                     <div>
                         <a href="New Project.png" target="_blank">
-                            <img src="Screenshot 2023-04-16 001926.png" alt={"img"} />
+                            <img src="Screenshot 2023-04-16 001926.png" alt={"img"}  className={"bigImage"}/>
                             <p>Landing Page Design in figma</p>
                         </a>
                     </div>
+                    </div>
+                    <div className={"bigDiv1"}>
+                        <a href="https://www.figma.com/proto/VbQJUicxTdGGi1Yr26BMWm/game?page-id=0%3A1&type=design&node-id=1-3&viewport=53%2C190%2C0.2&scaling=min-zoom&starting-point-node-id=5%3A74" target="_blank">
+                            <img src="Screenshot 2023-06-01 202942.png" alt={"img"} className={"small"}/>
+                            <p>Design game UI in Figma</p>
+                        </a>
+                    <a href="https://www.figma.com/proto/hLTxXvu9Et0gJp2o8N0B73/Untitled?page-id=0%3A1&type=design&node-id=1-3&viewport=355%2C169%2C0.24&scaling=min-zoom&starting-point-node-id=1%3A3&show-proto-sidebar=1" target="_blank">
+                        <img src="Screenshot 2023-05-29 191440.png" alt={"img"} className={"smallCash"}/>
+                        <p>Recreate CashMonk app in figma</p>
+                    </a>
+                   </div>
                 </div>
             </div>
             <div className="graphic">

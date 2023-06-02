@@ -13,7 +13,7 @@
 .uiUx {
     border: 2px solid #f9d2fa;
     box-shadow: 0px 13px 50px 13px #896da2;
-    padding: 0px 2% 4% 2%;
+    padding: 0px 2% 0px 2%;
     margin: 0px 20px;
     border-radius: 10px;
 }
@@ -43,13 +43,34 @@
 }
 .uiImage{
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    flex-wrap: wrap;
 }
 
-.uiImage img{
+.bigDiv{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.bigImage{
     width: 100%;
     height: 100%;
+    box-shadow: 0px 10px 30px 10px #896da2;
+}
+.bigDiv1{
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+    justify-content:flex-start;
+}
+.small{
+    width: 100%;
+    height: 80%;
+    box-shadow: 0px 10px 30px 10px #896da2;
+}
+.smallCash{
+    width: 77%;
+    height: 80%;
     box-shadow: 0px 10px 30px 10px #896da2;
 }
 .uiImage a:hover{
@@ -279,17 +300,30 @@
     color: #ae58ff;
 }
 @media (max-width: 1024px) {
-    /*.PhotoshopDesign, .uiUxDesign {*/
-    /*    padding: 0 2% 7% 4%;*/
-    /*}*/
     .uiUx {
-        padding: 0 2% 6% 4%;
+        padding: 0 2% 0px 4%;
     }
     .PhotoshopDesign, .uiUxDesign {
         padding: 0 10px 9% 10px;
     }
     .PhotoshopImage {
         gap: 25px;
+    }
+    .bigDiv{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .small{
+        width: 100%;
+        height: 80%;
+        box-shadow: 0px 10px 30px 10px #896da2;
+    }
+    .smallCash{
+        width: 100%;
+        height: 80%;
+        box-shadow: 0px 10px 30px 10px #896da2;
     }
 }
 @media (max-width: 768px) {
@@ -322,6 +356,27 @@
     .illuImage{
         /*flex-wrap: wrap;*/
         display: flex;
+    }
+    .bigImage{
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 10px 30px 10px #896da2;
+    }
+    .bigDiv1{
+        margin-top: 60px;
+        display: flex;
+        /*gap: 20px;*/
+        justify-content:center;
+    }
+    .small{
+        width: 100%;
+        height: 80%;
+        box-shadow: 0px 10px 30px 10px #896da2;
+    }
+    .smallCash{
+        width: 100%;
+        height: 80%;
+        box-shadow: 0px 10px 30px 10px #896da2;
     }
 
 }
@@ -372,6 +427,26 @@
     .illuImage{
         /*flex-wrap: wrap;*/
         display: flex;
+    }
+    .bigDiv{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .bigDiv1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .small{
+        width: 100%;
+        height: 80%;
+        box-shadow: 0px 10px 30px 10px #896da2;
+    }
+    .smallCash{
+        width: 100%;
+        height: 80%;
+        box-shadow: 0px 10px 30px 10px #896da2;
     }
 }
 

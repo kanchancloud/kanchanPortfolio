@@ -53,15 +53,8 @@
     border-radius: 10px;
 }
 
-@media (max-width: 575.98px) {
-    .nav {
-        list-style: none;
-        justify-content: center;
-        /* gap: 10%; */
-        height: 70px;
-        padding-top: 11%;
-        font-size: 13px;
-    }
+
+@media (max-width: 1399.98px) {
     .introWrap {
         flex-wrap: wrap;
         justify-content: center;
@@ -70,38 +63,6 @@
         flex-wrap: wrap;
         justify-content: center;
         gap:1%;
-        width: 40px;
-    }
-    .imgBlock{
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .introWrap {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .techImg{
-        flex-wrap: wrap;
-        justify-content: center;
-        gap:1%;
-        width: 40px;
-    }
-    .imgBlock{
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 991.98px) {
-    .introWrap {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .techImg{
-        flex-wrap: wrap;
-        justify-content: center;
-        gap:2%;
         width: 40px;
     }
     .imgBlock{
@@ -124,8 +85,24 @@
         font-size: 20px;
     }
 }
+@media (max-width: 991.98px) {
+    .introWrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .techImg{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:2%;
+        width: 40px;
+    }
+    .imgBlock{
+        font-size: 20px;
+    }
+}
 
-@media (max-width: 1399.98px) {
+
+@media (max-width: 767.98px) {
     .introWrap {
         flex-wrap: wrap;
         justify-content: center;
@@ -138,5 +115,28 @@
     }
     .imgBlock{
         font-size: 20px;
+    }
+}
+@media (max-width: 575.98px) {
+    .nav {
+        list-style: none;
+        justify-content: center;
+        /* gap: 10%; */
+        height: 70px;
+        padding-top: 11%;
+        font-size: 13px;
+    }
+    .introWrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .techImg{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:1%;
+        width: 40px;
+    }
+    .imgBlock{
+        font-size: 10px;
     }
 }
