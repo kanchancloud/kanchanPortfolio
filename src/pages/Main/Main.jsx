@@ -17,9 +17,9 @@ function MeinPageProp() {
                         </a>
                     </div>
                     <div>
-                        <a href="https://www.figma.com/proto/5Z8AjOuqRiyEytpwQd2g8r/Untitled?page-id=0%3A1&type=design&node-id=8-46&viewport=194%2C136%2C0.36&scaling=scale-down-width&starting-point-node-id=63%3A6" target="_blank">
-                            <img src="Screenshot 2023-05-28 173613.png" alt={"img"} className={"bigImage"}/>
-                            <p>Design in Figma</p>
+                        <a href=" https://www.figma.com/proto/9WHhZBftxAtf1q7498piw2/Untitled?page-id=0%3A1&type=design&node-id=19-205&viewport=487%2C-829%2C0.18&scaling=scale-down-width&starting-point-node-id=19%3A205&mode=design" target="_blank">
+                            <img src="appart.png" alt={"img"} className={"bigImage"}/>
+                            <p>apartment rental apps</p>
                         </a>
                     </div>
                     <div>
