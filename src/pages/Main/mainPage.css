@@ -11,11 +11,16 @@
     margin-bottom: 2%;
 }
 .uiUx {
-    border: 2px solid #f9d2fa;
+    /* border: 2px solid #f9d2fa;
     box-shadow: 0px 1px 10px 1px #896da2;;
     padding: 0px 2% 0px 2%;
     margin: 0px 20px;
-    border-radius: 10px;
+    border-radius: 10px; */
+        border: 1px solid #e3e0e0;
+        box-shadow: 0px 1px 5px 1px #f0eff1;
+        padding: 0px 2% 0px 2%;
+        margin: 0px 20px;
+        border-radius: 10px;
 }
 .uiImage a{
     text-decoration: none;
@@ -34,8 +39,8 @@
     font-weight: 600;
 }
 .jdklfsj{
-    border: 2px solid #f9d2fa;
-    box-shadow: 0px 1px 10px 1px #896da2;;
+    border: 1px solid #e3e0e0;
+    box-shadow: 0px 1px 5px 1px #f0eff1;
     padding: 0px 20px 2%;
     margin: 0px 20px;
     border-radius: 10px;
@@ -86,15 +91,15 @@
     flex-wrap: wrap;
 }
 .uiUxDesign{
-    border: 1px solid #f9d2fa;
-    box-shadow:0px 1px 10px 1px #896da2;;
+    border: 1px solid #e3e0e0;
+    box-shadow: 0px 1px 5px 1px #f0eff1;
     padding: 0px 2% 4%;
     margin: 3% 20px;
     border-radius: 10px;
 }
 .PhotoshopDesign{
-    border: 1px solid #f9d2fa;
-    box-shadow: 0px 1px 10px 1px #896da2;;
+    border: 1px solid #e3e0e0;
+    box-shadow: 0px 1px 5px 1px #f0eff1;
     padding: 0px 2% 4%;
     margin: 3% 20px;
     color:blueviolet;
@@ -151,7 +156,8 @@
     width: 100%;
     border-radius: 3px;
     background-position: center center;
-    box-shadow:0px 1px 10px 1px #896da2;
+    border: 1px solid #e3e0e0;
+    box-shadow: 0px 1px 5px 1px #f0eff1;
 }
 
 .MovieAbout {
@@ -160,13 +166,14 @@
 
 .MovieAbout {
     width: 50%;
-    border: 1px solid #f5caf6;
+    /* border: 1px solid #f5caf6; */
     box-sizing: border-box;
     margin: 0 5%;
     text-align: center;
     padding: 4.2% 0;
     position: relative;
-    box-shadow:0px 1px 10px 1px #896da2;;
+    border: 1px solid #e3e0e0;
+    box-shadow: 0px 1px 5px 1px #f0eff1;
 }
 
 .aboutTitle {

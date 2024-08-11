@@ -15,7 +15,7 @@ function AboutProps(props) {
                 <ImageWrapper image="html.png" para="HTML"/>
                 <ImageWrapper image="CSS3_logo.svg.png" para="CSS"/>
                 <ImageWrapper image="JavaScript-Logo.jpg" para="Javascript"/>
-                <ImageWrapper image="typescript.png" para="typescript"/>
+                {/* <ImageWrapper image="c:\Users\nitin\Downloads\png-transparent-canva-design-soft-design-tool-design-tool-logo-design-logo-tool-3d-icon-thumbnail.png" para="typescript"/> */}
                 <ImageWrapper image="react-1-logo-png-transparent.png" para="react JS"/>
             </div>
         </div>

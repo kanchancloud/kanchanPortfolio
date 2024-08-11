@@ -43,9 +43,10 @@
     margin: 0px;
 }
 .shadowDiv {
-    box-shadow:0px 1px 10px 1px #896da2;
+    border: 1px solid #e3e0e0;
+    box-shadow: 0px 1px 5px 1px #f0eff1;
     display: flex;
-    border: 1px solid #f5caf6;
+    /* border: 1px solid #f5caf6; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
