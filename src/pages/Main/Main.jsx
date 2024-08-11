@@ -11,9 +11,10 @@ function MeinPageProp() {
                 <div className="uiImage">
                     <div className={"bigDiv"}>
                     <div>
-                        <a href="https://www.figma.com/proto/tEzd2BgebkxBxkgCDuc5gI/Untitled?page-id=0%3A1&type=design&node-id=108-651&viewport=447%2C-550%2C0.16&scaling=scale-down-width&starting-point-node-id=82%3A20" target="_blank">
-                            <img src="portfolio2.png" alt={"img"} className={"bigImage"}/>
-                            <p>Portfolio design in figma</p>
+                        <a href="
+https://www.figma.com/proto/wyqJtsflIsOcfCffhf5kbw/game-vde?node-id=1-1047&t=gs0R0hFS1WQAAhUf-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank">
+                            <img src="1.png" alt={"img"} className={"bigImage"}/>
+                            <p>Gaming websitedesign in figma</p>
                         </a>
                     </div>
                     <div>
