@@ -10,11 +10,10 @@ function AboutPage(props) {
             </p>
             <div className="introWrap">
                     <p>Hello ! My name is <span>Kanchan sharma.</span>
-                        I am a self taught UI/UX Designer.
-                        I am motivation to create something user-friendly and beautiful.
+                        Hello! My name is Kanchan Sharma. I’m a self-taught UI/UX Designer with two years of experience. I’m driven by a passion for creating user-friendly and visually appealing designs.
                     </p>
                     <p>
-                        I am comfortable using this software's and technologies :
+                        I’m proficient in using the following software and technologies :
                     </p>
                     <br/>
             </div>
