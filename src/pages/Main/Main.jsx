@@ -52,7 +52,7 @@ https://www.figma.com/proto/wyqJtsflIsOcfCffhf5kbw/game-vde?node-id=1-1047&t=gs0
                     </a>
                         <a href="https://www.figma.com/proto/2JqGBfwMF5xiRyJqkLLd2R/Food-Delivery-Mobile-Apps?node-id=556-190&t=FFvUj4IYiMh2uCCH-0&scaling=min-zoom&content-scaling=fixed&page-id=513%3A1881" target="_blank">
                         <img src="Screenshot 2023-05-29 191440.png" alt={"img"} className={"smallCash"}/>
-                        <p>Food Delivery Mobile Apps</p>
+                        <p>Food Delivery Mobile App</p>
                     </a>
                    </div>
                 </div>
