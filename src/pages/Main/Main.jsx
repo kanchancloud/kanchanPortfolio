@@ -11,8 +11,7 @@ function MeinPageProp() {
                 <div className="uiImage">
                     <div className={"bigDiv"}>
                     <div>
-                        <a href="
-https://www.figma.com/proto/wyqJtsflIsOcfCffhf5kbw/game-vde?node-id=1-1047&t=gs0R0hFS1WQAAhUf-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank">
+                        <a href="https://www.figma.com/proto/wyqJtsflIsOcfCffhf5kbw/game-vde?node-id=1-1047&t=gs0R0hFS1WQAAhUf-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank">
                             <img src="1.png" alt={"img"} className={"bigImage"}/>
                             <p>Gaming websitedesign in figma</p>
                         </a>
@@ -26,7 +25,7 @@ https://www.figma.com/proto/wyqJtsflIsOcfCffhf5kbw/game-vde?node-id=1-1047&t=gs0
                       <div>
                         <a href="https://www.figma.com/proto/HZ5g9YVCdIKO1HErZTbGGe/selebs?node-id=3-5&t=FFvUj4IYiMh2uCCH-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A5" target="_blank">
                             <img src="appart.png" alt={"img"} className={"bigImage"}/>
-                            <p>practice project </p>
+                            <p>practice project</p>
                         </a>
                     </div>
                     <div>
@@ -45,12 +44,11 @@ https://www.figma.com/proto/wyqJtsflIsOcfCffhf5kbw/game-vde?node-id=1-1047&t=gs0
                         <img src="Screenshot 2023-05-29 191440.png" alt={"img"} className={"smallCash"}/>
                         <p>Recreate CashMonk app in figma</p>
                     </a>
-                        <a href="https://www.figma.com/proto/1uet1Ap1EnW4NZAEIk4NmA/Fitness-app?node-id=4-34&t=FFvUj4IYiMh2uCCH-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A34&show-proto-sidebar=1" target="_blank">
+                    <a href="https://www.figma.com/proto/1uet1Ap1EnW4NZAEIk4NmA/Fitness-app?node-id=4-34&t=FFvUj4IYiMh2uCCH-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A34&show-proto-sidebar=1" target="_blank">
                         <img src="Screenshot 2023-05-29 191440.png" alt={"img"} className={"smallCash"}/>
                         <p>Fitness app</p>
                     </a>
-                    </a>
-                        <a href="https://www.figma.com/proto/2JqGBfwMF5xiRyJqkLLd2R/Food-Delivery-Mobile-Apps?node-id=556-190&t=FFvUj4IYiMh2uCCH-0&scaling=min-zoom&content-scaling=fixed&page-id=513%3A1881" target="_blank">
+                   <a href="https://www.figma.com/proto/2JqGBfwMF5xiRyJqkLLd2R/Food-Delivery-Mobile-Apps?node-id=556-190&t=FFvUj4IYiMh2uCCH-0&scaling=min-zoom&content-scaling=fixed&page-id=513%3A1881" target="_blank">
                         <img src="Screenshot 2023-05-29 191440.png" alt={"img"} className={"smallCash"}/>
                         <p>Food Delivery Mobile App</p>
                     </a>
