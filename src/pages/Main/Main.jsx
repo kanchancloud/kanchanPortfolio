@@ -18,7 +18,13 @@ https://www.figma.com/proto/wyqJtsflIsOcfCffhf5kbw/game-vde?node-id=1-1047&t=gs0
                         </a>
                     </div>
                     <div>
-                        <a href=" https://www.figma.com/proto/9WHhZBftxAtf1q7498piw2/Untitled?page-id=0%3A1&type=design&node-id=19-205&viewport=487%2C-829%2C0.18&scaling=scale-down-width&starting-point-node-id=19%3A205&mode=design" target="_blank">
+                        <a href=" https://www.figma.com/proto/0I1xKlBcGhmtWTQbpzZ9bE/dark-design-practice-project-)?node-id=3-2&t=FFvUj4IYiMh2uCCH-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank">
+                            <img src="appart.png" alt={"img"} className={"bigImage"}/>
+                            <p>apartment rental apps</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href=" https://www.figma.com/proto/0I1xKlBcGhmtWTQbpzZ9bE/dark-design-practice-project-)?node-id=3-2&t=FFvUj4IYiMh2uCCH-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" target="_blank">
                             <img src="appart.png" alt={"img"} className={"bigImage"}/>
                             <p>apartment rental apps</p>
                         </a>
@@ -36,6 +42,10 @@ https://www.figma.com/proto/wyqJtsflIsOcfCffhf5kbw/game-vde?node-id=1-1047&t=gs0
                             <p>Design game UI in Figma</p>
                         </a>
                     <a href="https://www.figma.com/proto/hLTxXvu9Et0gJp2o8N0B73/Untitled?page-id=0%3A1&type=design&node-id=1-3&viewport=355%2C169%2C0.24&scaling=min-zoom&starting-point-node-id=1%3A3&show-proto-sidebar=1" target="_blank">
+                        <img src="Screenshot 2023-05-29 191440.png" alt={"img"} className={"smallCash"}/>
+                        <p>Recreate CashMonk app in figma</p>
+                    </a>
+<a href="https://www.figma.com/proto/1uet1Ap1EnW4NZAEIk4NmA/Fitness-app?node-id=4-34&t=FFvUj4IYiMh2uCCH-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A34&show-proto-sidebar=1" target="_blank">
                         <img src="Screenshot 2023-05-29 191440.png" alt={"img"} className={"smallCash"}/>
                         <p>Recreate CashMonk app in figma</p>
                     </a>
