@@ -22,12 +22,6 @@ function MeinPageProp() {
                             <p>practice project </p>
                         </a>
                     </div>
-                      <div>
-                        <a href="https://www.figma.com/proto/HZ5g9YVCdIKO1HErZTbGGe/selebs?node-id=3-5&t=FFvUj4IYiMh2uCCH-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A5" target="_blank">
-                            <img src="appart.png" alt={"img"} className={"bigImage"}/>
-                            <p>practice project</p>
-                        </a>
-                    </div>
                     <div>
                         <a href="New Project.png" target="_blank">
                             <img src="Screenshot 2023-04-16 001926.png" alt={"img"}  className={"bigImage"}/>
